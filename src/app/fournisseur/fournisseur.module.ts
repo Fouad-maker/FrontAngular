@@ -21,6 +21,13 @@ import { FournisseurComponent } from './fournisseur/fournisseur.component';
   imports: [
     CommonModule
   ],
-  exports: [ FooterFourComponent , FournisseurComponent]
+  exports: [ FooterFourComponent,
+     NavbarComponent, 
+    SidebarComponent, 
+    AdminComponent, 
+    AuthLayoutComponent,
+     DashboardComponent, IconsComponent, MapComponent, RtlComponent, 
+    TableComponent, TopographyComponent, UserComponent, FournisseurComponent
+  ]
 })
 export class FournisseurModule { }
